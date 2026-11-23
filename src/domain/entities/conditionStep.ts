@@ -1,7 +1,7 @@
 import { Condition } from "./condition";
-import { Step } from "./Step";
-import { StepStatus } from "./StepStatus";
-import type { Goal } from "./Goal";
+import { Step } from "./step";
+import { StepStatus } from "./stepStatus";
+import type { Goal } from "./goal";
 
 export class conditionStep extends Condition {
     readonly referencedStep : Step;

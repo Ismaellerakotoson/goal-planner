@@ -1,5 +1,5 @@
 import type { Condition } from './condition';
-import { StepStatus } from './StepStatus';
+import { StepStatus } from './stepStatus';
 
 export class Step {
   readonly id: string;

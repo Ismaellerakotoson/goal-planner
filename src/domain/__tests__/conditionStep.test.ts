@@ -1,7 +1,7 @@
-/*import { conditionStep } from '../entities/conditionStep';
-import type { Goal } from '../entities/Goal';
-import { Step } from '../entities/Step';
-import { StepStatus } from '../entities/StepStatus';
+import { conditionStep } from '../entities/conditionStep';
+import type { Goal } from '../entities/goal';
+import { Step } from '../entities/step';
+import { StepStatus } from '../entities/stepStatus';
 
 const goal = {} as Goal; // ConditionStep n'utilise pas le goal
 
@@ -36,4 +36,4 @@ describe('ConditionStep', () => {
     const { condition } = makeCondition(StepStatus.IN_PROGRESS);
     expect(condition.estimateDate(goal)).toBeNull();
   });
-});*/
+});

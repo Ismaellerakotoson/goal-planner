@@ -1,4 +1,4 @@
-import { Contribution } from "../entities/Contribution";
+import { Contribution } from "../entities/contribution";
 import { ValidationError } from '@/domain/errors/ValidationError';
 
 describe('Contribution', () => {

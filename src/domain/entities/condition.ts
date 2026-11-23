@@ -1,4 +1,4 @@
-import type { Goal } from "./Goal";
+import type { Goal } from "./goal";
 
 export abstract class Condition {
   readonly id: string;
